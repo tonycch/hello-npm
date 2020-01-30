@@ -3,6 +3,14 @@ function f() {
     let x;
 }
 
+function b() {
+	const loc = null;
+	if (dist < 10)
+ 	   loc = "here";
+	else
+    	loc = "there";
+}
+
 exports.printMsg = function() {
 	console.log("Hello World!");
 	return "Hello World!";
