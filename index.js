@@ -3,6 +3,11 @@ function f() {
     let x;
 }
 
+function f() {
+    x = 24;
+    let x;
+}
+
 function b() {
 	const loc = null;
 	if (dist < 10)
